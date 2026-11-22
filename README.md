@@ -2,78 +2,85 @@
 
 **Artificial Intelligence · Cybersecurity · Machine Learning · Contextual Bandits**
 
-An interdisciplinary senior graduation project investigating adaptive cyber deception through machine-learning classification and feedback-driven decoy selection.
-
-**Status:** Senior Project I — Research, Requirements & System Design  
-**Implementation:** Planned for Senior Project II  
-**Source Code:** Not Available in This Showcase
+**Project Type:** Senior Graduation Project — Effat University  
+**Status:** Senior Project I — Research & System Design Completed  
+**Development:** Senior Project II Implementation Planned
 
 ## Project Overview
 
-Traditional honeypots collect interaction logs but commonly expose static decoys.
+AI-Driven Adaptive Cyber Deception System is an interdisciplinary graduation project exploring how machine learning and adaptive decision-making can improve cyber-deception techniques.
 
-This project proposes an isolated educational laboratory that analyzes simulated SSH session behavior and selects synthetic decoy content based on predicted session interests.
+The proposed system analyzes behavioral information from controlled SSH honeypot sessions and uses it to select synthetic decoy environments.
 
-The research focuses on whether adaptive selection provides measurable advantages over fixed or rule-based approaches.
+The research investigates whether behavior-aware, feedback-driven deception can provide measurable advantages over traditional static approaches.
 
-## Proposed System Architecture
+## Proposed Technical Approach
 
-The planned system combines:
+The architecture brings together several components:
 
-- **Cowrie Honeypot:** Captures controlled SSH interactions and session logs.
-- **Behavior Classification:** Uses session-level features and a proposed Random Forest classifier.
-- **Adaptive Decoy Selection:** Selects synthetic Finance or Admin portals.
-- **Contextual Bandit:** Learns from observed portal engagement.
-- **Operator Dashboard:** Presents session timelines, decisions, predictions, and experiment results.
+- **Cowrie SSH Honeypot:** Controlled collection of simulated SSH-session activity.
+- **Machine Learning:** Planned Random Forest classification of session behavior into Finance, Admin, or General Exploration.
+- **Adaptive Decision-Making:** Contextual-bandit methods for feedback-driven decoy selection.
+- **Synthetic Web Portals:** Finance and Admin decoy environments.
+- **Monitoring Dashboard:** Planned visualization of session timelines, model predictions, decisions, and outcomes.
 
-All experiments are intended for an isolated, authorized environment using synthetic data.
+## Research Design
 
-## Planned Policy Comparison
+The planned evaluation compares four decoy-selection strategies:
 
-| Policy | Selection Approach |
+| Strategy | Approach |
 |---|---|
-| Fixed | Uses a predefined decoy |
-| Rule-Based | Applies deterministic behavioral rules |
-| ML-Only | Uses supervised classification |
-| ML + Bandit | Combines model predictions with feedback learning |
+| Fixed | A predefined decoy |
+| Rule-Based | Deterministic behavioral rules |
+| ML-Only | Machine-learning predictions |
+| ML + Contextual Bandit | Behavior classification and observed feedback |
 
 ## Completed Academic Work
 
 Senior Project I documents:
 
-- Problem definition and research objectives.
-- Literature review and feasibility study.
-- Functional and non-functional requirements.
-- System architecture and component responsibilities.
-- Use-case, context, sequence, and data-flow diagrams.
-- Proposed evaluation methodology and safety constraints.
+- Research objectives and problem definition.
+- Literature review and related work.
+- Feasibility and requirements analysis.
+- Proposed system architecture.
+- Use-case and sequence diagrams.
+- Data-flow and system-context diagrams.
+- Evaluation methodology and ethical safeguards.
 
-## Current Limitations
+## Current Project Status
 
-The system implementation, model training, contextual-bandit experiments, and performance measurements have not yet been completed.
+The submitted Senior Project I report documents the research and design phase.
 
-No model accuracy, engagement improvement, or operational deployment is claimed.
-
-## Planned Next Phase
-
-Senior Project II will focus on building the isolated laboratory, implementing the classification and decoy-selection components, integrating the mock portals and dashboard, and comparing the four policies through controlled experiments.
+System implementation, model training, and experimental evaluation are planned for Senior Project II. No measured model performance or completed system deployment is claimed at this stage.
 
 ## Academic Team
 
-An interdisciplinary three-member graduation project at Effat University, covering Artificial Intelligence, Cybersecurity, and General Computer Science.
+This is a collaborative, three-member senior graduation project at **Effat University**.
 
-**Yasser Alassad — Artificial Intelligence Track**
+| Team Member | Specialization |
+|---|---|
+| **Yasser Alassad** | Artificial Intelligence |
+| **Abdulwhab Ghounim** | Cybersecurity |
+| **Yunus Benaissa** | General Computer Science |
 
-The team collaborates on the overall research and design. Individual implementation contributions will be updated as the project progresses.
+The project combines expertise from all three tracks. The team collaborates on research, requirements, architecture, and development planning.
 
-## Safety & Ethics
+Specific implementation contributions will be updated as the project progresses.
 
-This project is intended exclusively for authorized educational cybersecurity experiments. It does not involve real attacker targeting, real organizational credentials, or production deployment.
+## Safety & Research Ethics
 
-## Developer
+The proposed system is designed exclusively for authorized, isolated educational experiments with synthetic data.
+
+The project does not involve real attacker targeting, real organizational credentials, or production deployment.
+
+## Repository Information
+
+This repository is a documentation showcase for the ongoing graduation project. Source code is not publicly included.
+
+## Portfolio Contact
 
 **Yasser Alassad**  
-Computer Science — Artificial Intelligence Specialization  
+Artificial Intelligence Track — Computer Science  
 Effat University
 
 [GitHub](https://github.com/yasser1555) · [LinkedIn](https://www.linkedin.com/in/yasser-alassad/) · [Portfolio](https://yasser-alassad-portfolio.vercel.app/)
